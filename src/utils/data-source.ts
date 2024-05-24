@@ -3,11 +3,11 @@ import { DataSource } from "typeorm";
 
 export const AppDataSource = new DataSource({
   type: "postgres",
-  host: process.env.HOST,
-  port: process.env.PORT,
-  username: process.env.USERNAME,
-  password: process.env.PASSWORD,
-  database: process.env.DATABASE,
+  host: "localhost",
+  port: 5432,
+  username: "postgres",
+  password: "12345678",
+  database: "vidapp_video_service_graphql",
   synchronize: true,
   logging: false,
   entities: [VideoEntity],

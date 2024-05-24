@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "aws-sdk": "^2.1628.0",
     "class-validator": "^0.14.1",
     "express": "^4.19.2",
     "graphiql": "^3.2.2",
